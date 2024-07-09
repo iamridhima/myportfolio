@@ -9,7 +9,7 @@ const Header = () => {
           <a href='#'>
             <img src={Logo} alt='' />
           </a>
-          <button className='btn btn-sm mr-10 -mt-4'><a href='https://www.linkedin.com/in/ridhima-bhatt-a588ba257/' target='_blank'>Work with me</a></button>
+          <button className='btn btn-sm'><a href='https://www.linkedin.com/in/ridhima-bhatt-a588ba257/' target='_blank'>Work with me</a></button>
         </div>
       </div>
     </header>
