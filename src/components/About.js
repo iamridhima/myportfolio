@@ -24,7 +24,7 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='h2 text-accent -mr-10'>About me.</motion.h2>
+              className='h2 text-accent ml-15'>About me.</motion.h2>
             <motion.h3
               variants={fadeIn('up', 0.2)}
               initial='hidden'
