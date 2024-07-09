@@ -41,7 +41,7 @@ const Labify = () => {
                 <p className='max-w-sm mb-16'>
                   These are some of the projects I did by the 5th semester of my undergrad journey.
                 </p>
-                <button className='btn btn-sm'><a href='c' target='_blank'>View all projects</a></button>
+                <button className='btn btn-sm'><a href='https://github.com/iamridhima' target='_blank'>View all projects</a></button>
               </motion.div>
               <motion.div
                 onClick={PhysioNep}
