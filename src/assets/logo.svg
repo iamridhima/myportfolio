@@ -1,0 +1,19 @@
+<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      
+      <stop offset="5%" stop-color="#406AFF"/>
+      <stop offset="60%" stop-color="#FF56F6"/> 
+       <stop offset="50%" stop-color="#B936EE"/>   
+      <stop offset="40%" stop-color="#3BACE2"/>
+     
+  
+    </linearGradient>
+  </defs>
+  <text x="50" y="60" font-family="Lobster, cursive" font-size="50" font-weight="bold" fill="url(#gradient)">
+    Ridhima
+  </text>
+  <text x="50" y="120" font-family="Fredoka, cursive" font-size="50" font-weight="bold" fill="url(#gradient)">
+    Bhatt
+  </text>
+</svg>
