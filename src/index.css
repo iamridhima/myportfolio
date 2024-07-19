@@ -50,13 +50,6 @@
   border-radius: 100%;
 }
 
-.resized-image {
-  width: 380px;
-  height: 420px;
-  margin-top: -65px;
-  margin-left: 105px;
-}
-
 .bg-services-small {
   background-size: 70% auto; /* 50% width, auto height */
   background-repeat: no-repeat;
@@ -90,6 +83,6 @@
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
-    @apply -mb-20 py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply mb-20 py-8 lg:py-20 lg:h-screen flex items-center;
   }
 }

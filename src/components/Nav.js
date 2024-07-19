@@ -14,8 +14,8 @@ const Nav = () => {
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="home" // Add 'to' attribute to specify the scroll target
             smooth={true}
-            activeClass='active'
             spy={true}
+            activeClass='active'
           >
             <BiHomeAlt />
           </Link>
@@ -23,8 +23,8 @@ const Nav = () => {
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="about" // Add 'to' attribute to specify the scroll target
             smooth={true}
-            activeClass='active'
             spy={true}
+            activeClass='active'
           >
             <BiUser />
           </Link>
@@ -32,8 +32,8 @@ const Nav = () => {
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="services" // Add 'to' attribute to specify the scroll target
             smooth={true}
-            activeClass='active'
             spy={true}
+            activeClass='active'
           >
             <BsClipboardData />
           </Link>
@@ -41,17 +41,17 @@ const Nav = () => {
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="work" // Add 'to' attribute to specify the scroll target
             smooth={true}
-            activeClass='active'
             spy={true}
-          >
+            activeClass='active'
+            >
             <BsBriefcase />
           </Link>
           <Link
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="contact" // Add 'to' attribute to specify the scroll target
             smooth={true}
-            activeClass='active'
             spy={true}
+            activeClass='active'
           >
             <BsChatSquareText />
           </Link>

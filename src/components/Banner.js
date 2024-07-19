@@ -7,16 +7,16 @@ import { fadeIn } from '../variants';
 
 const Banner = () => {
   return (
-    <section className='min-h-[85vh lg:min-h-[75vh] flex items-center' id='home'>
+    <section className='min-h-[85vh lg:min-h-[75vh] flex lg:flex-row sm:flex-col items-center' id='home'>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
-          <div className='flex-1 text-center font-secondary lg:text-left'>
+        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center sm:items-center sm:justify-center lg:gap-x-24'>
+          <div className='flex-1 text-center font-secondary lg:text-left flex-wrap'>
             <motion.h1
               variants={fadeIn('up', 0.2)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-2 text-[55px] font-bold leading-[0.8] lg:text-[100px]'
+              className='mb-2 text-[55px] font-bold leading-[0.8] lg:text-[100px] '
             >
               RIDHIMA <span> BHATT </span>
             </motion.h1>
@@ -71,9 +71,9 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className='hidden lg:flex flex-1 max-w-[500px] lg:max-w-[500px]'
+            className='lg:flex flex-1 items-center sm:max-w-[370px] sm:-mt-8 max-w-[300px] sm:max-h-[300px] sm:-mr-0 sm:ml-20 ml-10'
           >
-            <img src={Image} alt='' className='resized-image' />
+            <img src={Image} alt='' />
           </motion.div>
         </div>
       </div>

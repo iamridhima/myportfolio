@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import imgg from '../assets/about.png'
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -17,14 +18,15 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top -ml-12 mr-10 -mt-44'></motion.div>
-          <div className='flex-1 -ml-10 mr-10'>
+            className='flex-1  bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top sm:-ml-12 sm:mr-10 sm:-mt-44'>
+            </motion.div> 
+          <div className='flex-1 sm:-ml-10 sm:mr-10 '>
             <motion.h2
               variants={fadeIn('up', 0.2)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='h2 text-accent'>About me.</motion.h2>
+              className='h2 text-accent mt-20 sm:mt-0'>About me.</motion.h2>
             <motion.h3
               variants={fadeIn('up', 0.2)}
               initial='hidden'

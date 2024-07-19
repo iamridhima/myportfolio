@@ -42,13 +42,13 @@ const Services = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='h2 text-accent mb-6'>Volunteering Experiences</motion.h2>
+              className='h2 text-accent ml-10 sm:mb-6'>Volunteering Experiences</motion.h2>
             <motion.h3
               variants={fadeIn('up', 0.1)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='h3 max-w-[455px] mb-12'>I've been engaged in various clubs and committees of IOE Pulchowk Campus in these two years of Engineering. Some of them are:</motion.h3>
+              className='h3 max-w-[455px] ml-10 mb-12'>I've been engaged in various clubs and committees of IOE Pulchowk Campus in these two years of Engineering. Some of them are:</motion.h3>
           </motion.div>
           <div className='flex-1 ml-10'>
             <div>
