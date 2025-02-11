@@ -42,7 +42,7 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
             >
-              Hi, I'm Ridhima—though you can call me Rids. I'm a tech-savvy person with a passion for literature, nature photography, and music.
+              Hi, I'm Ridhima—though you can call me Rids. I'm a tech-savvy person with an interest in Music.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.2)}
