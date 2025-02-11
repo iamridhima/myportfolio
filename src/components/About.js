@@ -40,7 +40,7 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6'>My current interests lie in Web Development, Data Analysis, and Computer Vision. Looking ahead, I am eager to delve into the fields of Machine Learning and Robotics.</motion.p>
+              className='mb-6'>My current interests lie in Web2 and Web3 development. Looking ahead, I am eager to delve into the fields of Machine Learning as well.</motion.p>
             <div
               variants={fadeIn('up', 0.2)}
               initial='hidden'
@@ -59,7 +59,7 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[35px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={6} duration={6} /> :
+                  {inView ? <CountUp start={0} end={8} duration={6} /> :
                     null}
                   +
                 </div>
