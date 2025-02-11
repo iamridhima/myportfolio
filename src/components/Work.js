@@ -6,6 +6,7 @@ import img1 from '../assets/1.png';
 import img2 from '../assets/2.png';
 import img3 from '../assets/3.png';
 import img4 from '../assets/4.png';
+import img5 from '../assets/5.png';
 
 const PhysioNep = () => {
   const url = 'https://github.com/NibidaGhimire/PhysioNep';
@@ -96,7 +97,7 @@ const Labify = () => {
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 <img
                   className='group-hover:scale-125 transition-all duration-500 opacity-70 w-58 h-179'
-                  src={img2}
+                  src={img5}
                   alt='' />
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-gradient'>Mokshya</span></div>
